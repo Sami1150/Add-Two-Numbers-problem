@@ -1,9 +1,13 @@
-﻿public class Solution
+﻿/*
+ * This class takes an array as input and indices of the two numbers such that they add up to target.
+ * Each input would have exactly one solution, and same element is not used twice
+ */
+public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        int firstNum; int secondNum = 0;
-        int sum = 0;
+        int firstNum; int secondNum;
+        int sum;
 
         for (int i = 0; i < nums.Length; i++)
         {
